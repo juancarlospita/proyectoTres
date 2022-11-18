@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    
+    background: url(../img/todasana\ \(2\).jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+    background: black;
+
+}
+.logo{
+    display: block;
+    background: black;
+}
+
+.logo img {
+    height: auto;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+    background: url(../img/cosmetico.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.header h2 {
+    color: black;
+}
+
+.header p {
+    color: black;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 120%;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(252, 252, 252);
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(252, 251, 251);
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #000000;
+    color: white;
+    text-decoration: none;
+    background: #00000093;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.content {
+    height: 138vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo {
+    padding: 30px;
+}
+
+.containBox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.containBox .box{
+    height: 22rem;
+    width: 25rem;
+    background: rgba(245, 245, 220, 0.401);
+        text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, 0.5);
+    margin: 2rem;
+}
+
+.containBox .box img {
+    height: 8rem;
+    width: 19rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 5%;
+    color: white;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 2rem 0 1rem;
+}
+
+.containBox .box h3{
+    font-size: 20px;
+    color: #ede7ee;
+
+}
+
+.containBox .box p {
+    padding: 0 15px;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 18px;
+}
+
+.aboutUs{
+    background: url(../img/todasana\ \(2\).jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.aboutUs .title {
+    color: black;
+}
+
+.aboutUs p {
+    color: black;
+}
+
+
+.contactUs {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+
+
